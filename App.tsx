@@ -1,11 +1,6 @@
-import {Text, View} from '@ant-design/react-native';
-// import Route from './src/route';
+import Route from './src/route';
+import * as React from 'react';
 
 export default function App() {
-  // return <Route />;
-  return (
-    <View>
-      <Text>123</Text>
-    </View>
-  );
+  return <Route />;
 }
