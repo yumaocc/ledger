@@ -11,6 +11,8 @@ module.exports = {
           '@/module': ['./src/module'],
           '@/screen': ['./src/screen'],
           '@/asset': ['./src/asset'],
+          '@/Form': ['./src/module/common/Form'],
+          '@/route': ['./route'],
         },
       },
     ],
