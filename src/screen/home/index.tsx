@@ -1,12 +1,12 @@
-import { View, Text } from 'react-native';
+import { View, Text, Animated } from 'react-native';
 import React from 'react';
-
-// 在组件中使用
+import ScrollView = Animated.ScrollView;
 
 export default function Home() {
   return (
     <View>
       <Text>首页</Text>
+      <ScrollView style={{ backgroundColor: '#fff' }}> </ScrollView>
     </View>
   );
 }
